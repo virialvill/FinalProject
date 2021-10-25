@@ -2,7 +2,7 @@
 
 ## Deployed
 
-The final version of this project can be found at [here](https://<>.netlify.app)
+The final version of this project can be found at [here](https://zealous-archimedes-d3069c.netlify.app)
 
 To run the project clone this repo and run 
 
@@ -25,7 +25,7 @@ npm run start
 
 ## Show your support!
 
-Give a comment if you have 
+Give a comment if you enjoy this project or for improve this blog 
 
 ## Contact me 
 
