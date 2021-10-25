@@ -21,8 +21,8 @@ function showData(stories) {
     <picture>
     <img src="${baseURL}${result.multimedia[2].url}" alt="" />
     </picture>
-    <h3>${result.headline.main}</h3>
-    <h3><a href="${result.headline.main.url}">${result.headline.main}</a></h3>
+    
+    <h3><a href="${result.web_url}">${result.headline.main}</a></h3>
     <p>${result.abstract}</p>
     </div>
   `

@@ -6,14 +6,7 @@ The final version of this project can be found at [here](https://<>.netlify.app)
 
 To run the project clone this repo and run 
 
-## How to install? 
-
-````
-npm install
-npm run start
-
-```
-Introduction
+## Introduction
 
 Paw Blog is a front-end development project developed in 
 
@@ -22,14 +15,23 @@ Paw Blog is a front-end development project developed in
 - Javascript
 
 
-Show your support!
+## How to install? 
+
+````
+npm install
+npm run start
+
+````
+
+## Show your support!
 
 Give a comment if you have 
 
-Contact me 
+## Contact me 
 
 > Alicia Villegas -  viri.alivleon@gmail.com
-> Project Link: https://github.com/virialvill/repo_name
+
+> Project Link: https://github.com/virialvill/FinalProject
 
 
 
