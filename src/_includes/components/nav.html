@@ -1,0 +1,24 @@
+<!-- <nav aria-label="Primary"> -->
+
+  <nav>
+    <ul>
+      {% for nav in collections.nav %}
+      <li class="{% if nav.url == page.url %} active {% endif %}">
+        <a href="{{ nav.url | url }}">{{ nav.data.navTitle }}</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+ 
+  <script type="text/javascript">
+
+   const currenLocation = location.href;
+   const menuItem = document.querySelectorAll('a');
+   const menuLength = menuItem.length
+
+   for (let i = 0; i < menuLength; i ++ ){
+      if(menuItem[i].href == currenLocation){
+        menuItem[i].className = "active"
+      }
+   }
+  </script>

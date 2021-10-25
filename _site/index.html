@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title></title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    </style>
+  </head>
+  
+  <body class="home">
+    <!-- <nav aria-label="Primary"> -->
+
+  <nav>
+    <ul>
+      
+      <li class=" active ">
+        <a href="/">Home</a>
+      </li>
+      <li class="">
+        <a href="/pages/articles/">Articles</a>
+      </li>
+      <li class="">
+        <a href="/pages/dogsupplies/">Dog Videos</a>
+      </li>
+      <li class="">
+        <a href="/pages/contact/">Contact Us</a>
+      </li>
+      <li class="">
+        <a href="/pages/about/">About us</a>
+      </li></ul>
+  </nav>
+ 
+  <script type="text/javascript">
+
+   const currenLocation = location.href;
+   const menuItem = document.querySelectorAll('a');
+   const menuLength = menuItem.length
+
+   for (let i = 0; i < menuLength; i ++ ){
+      if(menuItem[i].href == currenLocation){
+        menuItem[i].className = "active"
+      }
+   }
+  </script>
+     
+    
+    <main  class="content">
+      <h1>Paw Blog</h1>
+      <p><img src="img/pets.jpg#petwelcome" alt="Welcome blog pet"></p>
+<h1>Welcome</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat dui eget sem pharetra interdum. Maecenas nibh ipsum, fermentum non est quis, aliquam imperdiet tortor. Sed congue tempor urna. Integer in laoreet urna. Donec auctor nisi quis pellentesque malesuada. Proin tincidunt porttitor tortor vitae tincidunt. Vestibulum vehicula orci in eros tincidunt venenatis. Pellentesque nec quam justo. Proin ullamcorper ipsum at bibendum congue.</p>
+<p>Sed dignissim consectetur tellus sit amet mollis. Phasellus ultricies finibus magna. Curabitur interdum, nulla ac sollicitudin euismod, leo turpis euismod massa, in dapibus erat ipsum a purus. Nulla ac leo pulvinar, sollicitudin lacus sit amet, mollis massa. Nulla facilisi. Aliquam tristique mauris quam, sed facilisis ex volutpat vitae. Etiam finibus nec quam non consectetur. Integer finibus tempus condimentum.</p>
+<p>Curabitur velit lectus, fermentum nec viverra suscipit, molestie in nibh. Proin urna arcu, commodo non felis non, laoreet sodales ex. Nam ut purus sit amet justo imperdiet facilisis sit amet non orci. Fusce lacinia ante risus, at euismod ex faucibus at. Morbi urna felis, faucibus quis orci at, laoreet varius ante. Duis id viverra dui, eu rutrum nulla. Integer venenatis magna neque, ut accumsan diam consequat quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus at viverra massa. Vestibulum pellentesque dictum tortor, id aliquam neque pretium id. Aenean aliquet vulputate sem in sollicitudin. Proin eu libero suscipit, malesuada ante nec, ultrices lectus.</p>
+
+    
+
+     <footer>
+    <h3>Follow Us!</h3>
+    <div class="footer-menu">
+            
+                <div class="icon-footer"><img src="/img/facebook_logo.svg"></div>
+            
+                <div class="icon-footer"><img src="/img/instagram_logo.svg"></div>
+            
+                <div class="icon-footer"><img src="/img/twitter_logo.svg"></div>
+          
+    </div>
+</footer> 
+    </main>
+  
+  </body>
+</html>

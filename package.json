@@ -1,0 +1,21 @@
+{
+  "name": "eleventy",
+  "version": "1.0.0",
+  "description": "## Deployed",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "concurrently": "^6.3.0",
+    "prettier": "^2.4.1",
+    "sass": "^1.43.3"
+  }
+}
