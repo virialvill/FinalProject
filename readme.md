@@ -14,6 +14,7 @@ Paw Blog is a front-end development project developed in
 - Css
 - Javascript
 
+The images used from unsplash.com
 
 ## How to install? 
 
